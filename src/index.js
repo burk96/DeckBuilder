@@ -8,7 +8,6 @@ import { fetchCards } from "./api";
 import { DeckList, SearchBar, SearchResults } from "./components";
 
 const App = () => {
-  fetchCards().then(console.log);
   const [results, setResults] = useState([]);
 
   return (
